@@ -6,8 +6,8 @@ func main() {
 
 	// variable declaration with initial value
 
-	var student1 string = "John"
-	var student2 = "Doe" //infarred
+	var student1 string = "Jahidul"
+	var student2 = "Islam" //infarred
 	x := 2               //infarred
 	y := 2.04            // infarred
 
