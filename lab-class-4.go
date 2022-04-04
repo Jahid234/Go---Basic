@@ -10,8 +10,8 @@ func main() {
 
 	// 	/*Static array, Dynamic array*/
 
-	// 	var a1 = [3]int{1, 2, 3} // array
-	// 	var a2 = []int{1, 2, 3}  // array
+	// 	var a1 = [3]int{1, 2, 3} // Static array
+	// 	var a2 = []int{1, 2, 3}  // Dynamic array
 	// 	a1[0] = 10
 
 	// 	fmt.Println(a1)
