@@ -50,8 +50,8 @@ func main() {
 
 	// -In map adding an elements & updating an elements
 
-	m4["Jahid"] = 20010302002900
-	m4["Pritom"] = 20010302006300
+	m4["Jahid"] = 20010302002900  ///update
+	m4["Pritom"] = 20010302006300 ///add
 
 	fmt.Println(m4)
 
