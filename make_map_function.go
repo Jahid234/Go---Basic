@@ -2,8 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Println("Hello World")
+func main() {	
 
 	// - make()
 	var m1 = make([]int, 0, 2)
@@ -20,25 +19,25 @@ func main() {
 
 	// - map[]
 	m2 := map[string]int{
-		"Jahid":  200103020029,
-		"Pritom": 200103020063,
+		"Jahid":  20010302000029,
+		"Pritom": 20010302000063,
 	}
 
 	m3 := map[int]string{
-		200103020062: "Jamil",
-		200103020013: "Arafat",
+		20010302000062: "Jamil",
+		20010302000013: "Arafat",
 	}
 
 	fmt.Println(m2["Jahid"])
 
-	fmt.Println(m3[200103020062])
+	fmt.Println(m3[20010302000062])
 
 	// use - map() & make[]
 
 	m4 := make(map[string]int)
 
-	m4["Jahid"] = 200103020029
-	m4["Jamil"] = 200103020062
+	m4["Jahid"] = 20010302000029
+	m4["Jamil"] = 20010302000062
 
 	fmt.Println(m4["Jahid"])
 
@@ -51,8 +50,8 @@ func main() {
 
 	// -In map adding an elements & updating an elements
 
-	m4["Jahid"] = 2001030200290
-	m4["Pritom"] = 200103020063
+	m4["Jahid"] = 20010302002900
+	m4["Pritom"] = 20010302006300
 
 	fmt.Println(m4)
 
